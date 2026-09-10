@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tawona Tuwacha Portfolio
 
 A simple personal portfolio webpage built with HTML and CSS.
@@ -39,3 +40,7 @@ Added `<label>` tags for each input field (Name, Email, Phone, Message). This im
 
 - Code validated and cleaned for readability.  
 - Portfolio page displays correctly in browser with no console errors.
+=======
+# Tawona_Tuwacha
+My Portfolio for Assignment1
+>>>>>>> ce39cb571db65858c8f15bf3c3270a33620d7e20
