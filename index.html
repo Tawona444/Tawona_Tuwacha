@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawona Tuwacha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: burlywood;
+        }
+        .navbar {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+        .navbar .logo {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .navbar .menu ul {
+            list-style: none;
+            display: inline-block;
+        }
+        .navbar .menu ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .navbar .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            background: #fff;
+            margin: 1rem auto;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+        img {
+            display: block;
+            margin: 2rem auto;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Estaleny</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<main>
+    <section id = "about">
+        <h2>About</h2>
+        <p>I am interested in software development and web technologies</p>
+    </section>
+
+    <section id = "skills">
+        <h2>My Skills</h2>
+        <p>HTML, CSS, Git, and VSCode</p>
+    </section>
+
+    <section id = "contact">
+        <h2>CONTACT</h2>
+        <h3>Get in Touch</h3>
+        <p>Email: tawonatuwacha14@gmail.com</p>
+        <p>PHONE : 0786388097</p>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <img src="profile.jpg" alt="Portrait of Tawona Tuwacha smiling">
+
+    <footer>
+    <p>© 2026 Tawona Tuwacha</p>
+  </footer>
+</body>
+</html>
